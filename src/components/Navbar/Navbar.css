@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navbar__list {
+  gap: 26px;
+  margin-left: 111px;
+}
+
+.navbar__item {
+  position: relative;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00000080;
+}
+
+.active {
+  color: #181725;
+}
+
+.border::after {
+  position: absolute;
+  left: 40px;
+  bottom: 0;
+  width: 22px;
+  border-bottom: 3px solid #53b175;
+  content: "";
+}
+
+.cart {
+  gap: 6px;
+  margin-left: 664px;
+}
+
+.bookmark {
+  display: inline-block;
+  border-radius: 50%;
+  text-decoration: none;
+}

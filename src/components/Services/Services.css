@@ -1,0 +1,55 @@
+.services__inner {
+  padding: 40px 0 54px;
+}
+
+.services__list {
+  margin: 0;
+  padding: 16px 0 30px;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.services__item {
+  display: inline-flex;
+  width: 286px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1d1d1fbf;
+}
+
+.services__item::before {
+  display: inline-block;
+  width: 80px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+  content: "";
+}
+
+.services__item:nth-child(1)::before {
+  background-image: url("./images/delivery.svg");
+}
+.services__item:nth-child(2)::before {
+  background-image: url("./images/pay.svg");
+}
+.services__item:nth-child(3)::before {
+  background-image: url("./images/sale.svg");
+}
+.services__item:nth-child(4)::before {
+  background-image: url("./images/call-sentr.svg");
+}
+
+.services__box {
+  width: 200px;
+}
+
+.services__strong {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1d1d1f;
+}

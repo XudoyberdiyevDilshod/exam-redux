@@ -1,0 +1,124 @@
+.hero {
+  margin-bottom: 300px;
+  padding: 100px 0 400px;
+  background-image: url("../Header/images/bg-color.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.hero__inner {
+  position: relative;
+}
+
+.hero__content {
+  width: 777px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+  color: #000000;
+}
+
+.hero__content--text {
+  width: 462px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.strong {
+  margin: 0;
+  display: inline-block;
+  color: #53b175;
+  text-decoration-line: underline;
+}
+
+.hero__box {
+  position: relative;
+}
+
+.hero__box--img {
+  position: absolute;
+  top: 148px;
+}
+
+.hero__box--text {
+  margin: 0;
+  padding: 20px 17px;
+  position: absolute;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #c3c3c3;
+  background-color: #fff;
+  box-shadow: 0px 15px 60px rgba(22, 22, 22, 0.1);
+  border-radius: 15px;
+}
+
+.hero__box-content {
+  margin: 0;
+  position: absolute;
+  width: 188px;
+}
+
+.hero__box-content-r {
+  top: 320px;
+  left: -70px;
+}
+.hero__box-content-l {
+  top: 420px;
+  right: -70px;
+}
+
+.hero__box--strong {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.hero__box--strong::before {
+  display: inline-block;
+  width: 30px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  content: "";
+}
+
+.hero__box--strong-r::before {
+  background-image: url("./images/icon-customer-service.svg");
+}
+
+.hero__box--strong-l::before {
+  background-image: url("./images/24-hours.svg");
+}
+
+.tel-m {
+  position: absolute;
+  top: 400px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.telefon-message {
+  display: block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

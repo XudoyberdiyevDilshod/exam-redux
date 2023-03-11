@@ -1,0 +1,32 @@
+.question__content {
+  display: flex;
+  align-items: flex-start;
+  gap: 219px;
+}
+
+.question__btn {
+  display: inline-flex;
+  padding: 10px 20px;
+  background-color: #53b17533;
+  border-radius: 50px;
+  border: transparent;
+}
+
+.question__btn::after {
+  margin-left: 61px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("./images/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: top 3px center;
+  content: "";
+}
+
+.accordion {
+  margin-right: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #53b175;
+}

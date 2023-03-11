@@ -1,0 +1,86 @@
+.header-top {
+  padding: 12px 0 10px;
+  background-color: #dbeee380;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav__item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #505050;
+}
+
+.sale {
+  color: #ab7a19;
+}
+
+.new {
+  color: #ab7a19;
+}
+
+.header-top__list {
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.header-top__item {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.header-top__item:nth-child(2) {
+  margin: 0 16px;
+  padding: 0 16px;
+  border-left: 1px solid #b0b7c366;
+  border-right: 1px solid #b0b7c366;
+}
+
+.header-top__item:nth-child(2)::after {
+  width: 22px;
+  height: 14px;
+  background-image: url("../Header/images/location.svg");
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+  background-position: top left 8px;
+  content: "";
+}
+
+.header-top__item:nth-child(3)::after {
+  width: 22px;
+  height: 14px;
+  background-image: url("../Header/images/icon-man.svg");
+  background-repeat: no-repeat;
+  background-size: 11px 14px;
+  background-position: top left 8px;
+  content: "";
+}
+
+.site-header {
+  background-color: rgb(83, 177, 117, 0.4);
+}
+
+.site-header__inner {
+  padding: 27px 0;
+}
