@@ -6,6 +6,7 @@ import { Questions } from "../../components/Questions/Questions";
 import { Services } from "../../components/Services/Services";
 
 export const Home = () => {
+  
   return (
     <main>
       <Hero />

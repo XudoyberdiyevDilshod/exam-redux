@@ -3,9 +3,12 @@ import { Link, NavLink } from "react-router-dom";
 import bookmark from "./images/bookmark.svg";
 import kart from "./images/kart.svg";
 import "./Navbar.css";
+import { useSelector } from "react-redux";
 import logo from "./images/LOGO.svg";
 
 export const Navbar = () => {
+  const { cart } = useSelector((state) => state.cart);
+
   return (
     <div className="navbar">
       <Link to={"/"} className="link">
@@ -36,12 +39,17 @@ export const Navbar = () => {
       <ul className="cart list navbar">
         <li className="item">
           <Link to={"/like"} className="bookmark">
-            <img src={bookmark} alt="bookmark" width="30" height="30" />
+            <img src={bookmark} alt="bookmark" width="50" height="50" />
           </Link>
         </li>
         <li className="item">
           <Link to={"/cart"} className="bookmark">
-            <img src={kart} alt="bookmark" width="30" height="30" />
+            <img src={kart} alt="bookmark" width="50" height="50" />
+            {cart.length ? (
+              <span className="count-cart">{cart.length}</span>
+            ) : (
+              ""
+            )}
           </Link>
         </li>
       </ul>

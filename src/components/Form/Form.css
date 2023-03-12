@@ -1,0 +1,88 @@
+.form {
+  padding-top: 100px;
+  padding-bottom: 146px;
+  background-image: url("./images/bg-img-girl.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 200px) calc(50% - 100px);
+}
+
+.form-inner {
+  padding-left: 700px;
+}
+
+.site-forms {
+  width: 100%;
+  max-width: 364px;
+  margin-bottom: 100px;
+}
+
+.site-form__title {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 125%;
+  color: #000000;
+}
+
+.form-tel-label {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #53b175;
+  border-bottom: 1px solid rgba(176, 183, 195, 0.5);
+}
+
+.form-name-input {
+  width: 100%;
+  display: block;
+  padding: 13px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #282828;
+  border: none;
+  border-bottom: 1px solid rgba(176, 183, 195, 0.5);
+  outline: none;
+  background-color: transparent;
+}
+
+.form-tel-input {
+  background-color: transparent;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  color: #181725;
+}
+
+.nomer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181725;
+}
+
+.form-btn {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  padding: 10px 0 10px 22px;
+  max-width: 213px;
+  text-align: start;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181725;
+  background: rgba(83, 177, 117, 0.2);
+  border: none;
+  border-radius: 50px;
+  background-image: url("../../assets/images/submit.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 80px) center;
+}

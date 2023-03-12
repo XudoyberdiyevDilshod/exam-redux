@@ -2,6 +2,7 @@ import React from "react";
 import "../Header/Header.css";
 import flag from "./images/uzb-flag.svg";
 import { Navbar } from "../Navbar/Navbar";
+import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <header>
@@ -28,7 +29,7 @@ export const Header = () => {
       <div className="site-header">
         <div className="container">
           <div className="site-header__inner">
-            <Navbar/>
+            <Navbar />
           </div>
         </div>
       </div>

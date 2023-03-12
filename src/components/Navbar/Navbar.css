@@ -49,3 +49,21 @@
   border-radius: 50%;
   text-decoration: none;
 }
+
+.count-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50%;
+  top: 8px;
+  right: -8px;
+  position: absolute;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+}
