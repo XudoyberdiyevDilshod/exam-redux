@@ -6,6 +6,7 @@ import like from "./images/like.svg";
 import Plus from "./images/Plus.svg";
 import { handleAddCart } from "../../redux-toolkit/cartSlice";
 import { changeHeartColor, handleAddLike } from "../../redux-toolkit/likeSlice";
+import BasicModal from "../Modal/ModalBox";
 
 export const Product = ({
   quantity,
@@ -59,6 +60,7 @@ export const Product = ({
               </button>
             </div>
           </div>
+          <BasicModal />
         </div>
       </div>
     </li>

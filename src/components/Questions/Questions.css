@@ -30,3 +30,7 @@
   line-height: 36px;
   color: #53b175;
 }
+
+.questions__list {
+  width: 900px;
+}

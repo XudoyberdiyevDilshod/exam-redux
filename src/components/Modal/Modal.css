@@ -1,0 +1,12 @@
+.ModalBtn {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bdbdbd;
+}
+
+.ModalBtnCart {
+  padding: 50px;
+  background-color: #fff;
+}

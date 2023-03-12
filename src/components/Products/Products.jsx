@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Products.css";
 import img from "./images/bg-img-village.jpg";
-import { useSelector } from 'react-redux'
+import { useSelector } from "react-redux";
 import { Product } from "./Product";
-
 
 export const Products = () => {
   const { products } = useSelector((state) => state.like);
