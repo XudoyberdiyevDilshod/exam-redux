@@ -57,6 +57,7 @@
 }
 
 .login-label {
+  display: block;
   margin-bottom: 24px;
   padding-bottom: 15px;
   border-bottom: 1px solid #e2e2e2;
