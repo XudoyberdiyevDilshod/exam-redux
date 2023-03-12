@@ -3,7 +3,6 @@ import { Link, NavLink } from "react-router-dom";
 import bookmark from "./images/bookmark.svg";
 import kart from "./images/kart.svg";
 import "./Navbar.css";
-
 import logo from "./images/LOGO.svg";
 
 export const Navbar = () => {

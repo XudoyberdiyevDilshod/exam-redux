@@ -8,7 +8,7 @@
   list-style-type: none;
   display: flex;
   align-items: flex-start;
-  gap: 100px;
+  justify-content: space-between;
 }
 
 .services__item {

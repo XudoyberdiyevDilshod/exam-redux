@@ -1,13 +1,13 @@
-import { Header } from "./components/Header/Header";
-import { Main } from "./components/Main/Main";
+import React from 'react'
+import Authentication from './Authentication'
+import { Unauthentication } from './UnAuthentication'
 
-function App() {
-  return (
-    <>
-      <Header />
-      <Main/>
-    </>
-  );
+export const App = () => {
+  const token = false
+  if(token) {
+    return <Authentication/>
+  }
+  else {
+    return <Unauthentication/>
+  }
 }
-
-export default App;
